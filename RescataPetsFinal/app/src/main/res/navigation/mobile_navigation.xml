@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/inicio2">
+
+    <fragment
+        android:id="@+id/mascotaPerdida"
+        android:name="com.damgrupo5.rescatapetsfinal.ui.NuevosAnuncios.MascotaPerdida"
+        android:label="Registra tu mascota perdida"
+        tools:layout="@layout/fragment_mascota_perdida" />
+    <fragment
+        android:id="@+id/mascotaEncontrada"
+        android:name="com.damgrupo5.rescatapetsfinal.ui.NuevosAnuncios.MascotaEncontrada"
+        android:label="¿Encontraste una mascota?"
+        tools:layout="@layout/fragment_mascota_encontrada" />
+    <fragment
+        android:id="@+id/mascotaAdopcion"
+        android:name="com.damgrupo5.rescatapetsfinal.ui.NuevosAnuncios.MascotaAdopcion"
+        android:label="¿Regalas a tus Mascotas?"
+        tools:layout="@layout/fragment_mascota_adopcion" />
+    <fragment
+        android:id="@+id/inicio2"
+        android:name="com.damgrupo5.rescatapetsfinal.ui.OpcionesMenu.Inicio"
+        android:label="Anuncios de Mascotas"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/editaAnuncios"
+        android:name="com.damgrupo5.rescatapetsfinal.ui.OpcionesMenu.EditaAnuncios"
+        android:label="Edita tus anuncios"
+        tools:layout="@layout/fragment_edita_anuncios" />
+    <fragment
+        android:id="@+id/editaPerfil2"
+        android:name="com.damgrupo5.rescatapetsfinal.ui.OpcionesMenu.EditaPerfil"
+        android:label="Cambia los datos de tu perfil"
+        tools:layout="@layout/fragment_edita_perfil" />
+</navigation>

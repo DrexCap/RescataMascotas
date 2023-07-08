@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.NuevosAnuncios.MascotaPerdida">
+
+    <FrameLayout
+        android:id="@+id/mascotaPerdida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="Registra a tu mascota Perdida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center" />
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/nomMascotaImput"
+            android:hint="@string/Nombre"
+            android:inputType="textPersonName|textCapWords"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/icono_text"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:layout_marginTop="10dp"
+            android:id="@+id/tipoMascotaSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+        </Spinner>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/razaMascotaInput"
+            android:hint="@string/RazaMascota"
+            android:inputType="textPersonName|textCapWords"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/icono_text"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/coloMascotaInput"
+            android:hint="@string/ColorMascota"
+            android:inputType="textPersonName|textCapWords"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/icono_text"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/lastLocationInput"
+            android:hint="@string/lastLocation"
+            android:inputType="text"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/icono_text"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/rewardMascotaInput"
+            android:hint="@string/reward"
+            android:inputType="phone"
+            android:maxLength="9"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/icono_text"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/fotoMascotaFormulario"
+                android:layout_width="358dp"
+                android:layout_height="180dp"
+                android:layout_weight="0.4"
+                android:src="@drawable/ic_launcher_foreground" />
+
+            <Button
+                android:id="@+id/btnSubirFotoFormulario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/SubirImagen"
+                android:textSize="18sp"
+                android:backgroundTint="#FF5733"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnRegAnunMascotaPerdida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/RegistrarAnuncio"
+            android:textSize="18sp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    </FrameLayout>
+</ScrollView>

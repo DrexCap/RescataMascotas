@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Crea un nuevo anuncio" >
+        <menu >
+            <item
+                android:id="@+id/mascotaPerdida"
+                android:title="Mascota Perdida"
+                android:icon="@drawable/agregar_anuncio_icon">
+            </item>
+            <item
+                android:id="@+id/mascotaEncontrada"
+                android:title="Mascota Encontrada"
+                android:icon="@drawable/agregar_anuncio_icon">
+            </item>
+            <item
+                android:id="@+id/mascotaAdopcion"
+                android:title="Mascota en Adopción"
+                android:icon="@drawable/agregar_anuncio_icon">
+            </item>
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/inicio2"
+            android:icon="@drawable/inicio_icono"
+            android:title="@string/menu_inicio"
+            ></item>
+        <item
+            android:id="@+id/editaAnuncios"
+            android:icon="@drawable/settings_ico"
+            android:title="@string/menu_editar_anuncios"
+            ></item>
+        <item
+            android:id="@+id/editaPerfil2"
+            android:icon="@drawable/perfil_user_ico"
+            android:title="@string/menu_editar_perfil"
+            ></item>
+        <item
+            android:id="@+id/salir"
+            android:icon="@drawable/salir_icono"
+            android:title="@string/menu_salir"
+            ></item>
+        <!--
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        -->
+    </group>
+</menu>

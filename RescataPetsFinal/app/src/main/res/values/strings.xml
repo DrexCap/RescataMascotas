@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">RescataPetsFinal</string>
+
+    <string name="Btn_Login">Login</string>
+    <string name="Btn_Registro">Registro</string>
+
+    <string name="CrearCuentaTXT">Crea una cuenta</string>
+    <string name="NombreEt">Nombres</string>
+    <string name="ApellidoEt">Apellidos</string>
+    <string name="CorreoEt">Correo electronico</string>
+    <string name="ContraseñaEt">Contraseña</string>
+    <string name="ConfirmarContraseñaEt">Confirmar contraseña</string>
+    <string name="RegistrarUsuario">Registrar</string>
+    <string name="TengounacuentaTXT">Tengo una cuenta</string>
+    <string name="RespuestaSecreta">Respuesta secreta</string>
+    <string name="Pais">Pais</string>
+    <string name="Telefono">Teléfono</string>
+
+    <string name="select">Selecciona una pregunta</string>
+
+    <string name="imagenPerfil">Imagen del Perfil</string>
+    <string name="title_activity_perfil">PerfilActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_inicio">Inicio</string>
+    <string name="menu_editar_anuncios">Edita tus anuncios</string>
+    <string name="menu_editar_perfil">Edita tu Perfil</string>
+    <string name="menu_salir">Cerrar Sesión</string>
+
+    <string name="edita_perfiL_titulo">Edita los datos de tu cuenta</string>
+    <string name="edita_perfiL_boton_foto">Elige una foto</string>
+    <string name="edita_perfiL_etiqueta_telefono">Número de teléfono:</string>
+    <string name="edita_perfiL_hint_telef">Ingrese su nuevo número:</string>
+    <string name="edita_perfiL_boton_editar">Aceptar</string>
+
+    <string name="Nombre">Ingresa el nombre de tu mascota</string>
+    <string name="RazaMascota">Ingresa la raza de tu mascota</string>
+    <string name="ColorMascota">Color de la mascota</string>
+    <string name="lastLocation">Ultima ubicación donde viste a tu mascota</string>
+    <string name="reward">Recompensa(Opcional)</string>
+    <string name="phoneUser">Telefono</string>
+    <string name="RegistrarAnuncio">Registrar Anuncio</string>
+    <string name="SubirImagen">Sube una foto de tu mascota</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    -->
+</resources>
